@@ -33,6 +33,24 @@
     border-radius: 12px;
 }
 
+#large{
+    background-color: rgba(255, 255, 255, 0.691);
+    display: none;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+#small{
+    background-color: rgba(255, 255, 255, 0.691);
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width:710px){
     #header-menu-bar{
         display: block;
