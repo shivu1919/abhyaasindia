@@ -54,12 +54,7 @@ function Header() {
                         <Link id="header-links" to="/">About</Link>
                         <Link id="header-links" to="/">Contact</Link>
 
-                    <div style={{backgroundColor:"red",padding:"6px",borderRadius:"12px",cursor:"pointer"}}>
-                        <div style={{display:"flex",alignItems:"center",columnGap:"5px"}}>
-                            <img src="/icons/phone-call.png" width="30"/>
-                            <p style={{fontSize:"18px",color:"white",fontWeight:"500"}}>8630444460</p>
-                        </div>
-                    </div> 
+                   
                     
             </div>
         
