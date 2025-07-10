@@ -11,6 +11,7 @@
 
 #link-div{
     color: blue;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +23,7 @@
 }
 
 #header-links{
+     font-weight: 400;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -43,12 +45,15 @@
 }
 
 #small{
-    background-color: rgba(255, 255, 255, 0.691);
+    width: 100%;
+    background-color: rgba(246, 193, 193, 0.348);
+    padding-right: 20px;
+    row-gap: 3px;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    
 }
 
 @media (max-width:710px){

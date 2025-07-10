@@ -1,0 +1,60 @@
+#home-first{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-image: url('/monochrome.jpg' );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#heading1{
+    color: red;
+    font-weight: 800;
+    font-size: 62px;
+    letter-spacing: 5px;
+}
+
+#heading2{
+    color: blue;
+    font-size: 80px;
+    letter-spacing: 5px;
+    border-right: 2px solid black;
+    animation: typing 2s steps(12), blink 0.5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12ch; 
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (max-width:780px){
+
+    #heading1{
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    #heading2{
+        color: blue;
+        font-size: 56px;
+        letter-spacing: 5px;
+    }   
+}
+
