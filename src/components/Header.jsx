@@ -23,7 +23,7 @@ function Header() {
                     <Link id="header-links" to="/">Contact</Link>
                 </div>
 
-                <div id='header-call-div' style={{display:"flex",alignItems:"center",justifyContent:"center", padding:"10px",backgroundColor:"red",borderRadius:"12px",color:"white",fontWeight:"700",cursor:"pointer"}}>
+                <div id='header-call-div' >
                     Contact Us
                 </div>
 

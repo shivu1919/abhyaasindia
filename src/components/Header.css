@@ -59,6 +59,18 @@
     
 }
 
+#header-call-div{
+    display:flex;
+    align-Items:center;
+    justify-Content:center;
+    padding:10px;
+    background-Color:red;
+    border-Radius:12px;
+    color:white;
+    font-Weight:700;
+    cursor:pointer;
+}
+
 @media (max-width:710px){
     #header-menu-bar{
         display: block;
@@ -70,9 +82,9 @@
         justify-content: space-between;
     }
     
-     #header-call-div{
+    #header-call-div{
         display: none;
-     }
+    }
 
     #link-div{
         display: none;
