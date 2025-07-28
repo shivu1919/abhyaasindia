@@ -23,18 +23,11 @@ function Header() {
                     <Link id="header-links" to="/">Contact</Link>
                 </div>
 
-                <div style={{
-                    backgroundColor:"red",
-                    padding:"3px",
-                    borderRadius:"12px",
-                    cursor:"pointer"}} 
-                    id="header-call-div">
-
-                    <div style={{display:"flex",alignItems:"center",width:"140px",height:"40px",columnGap:"10px"}}>
-                        <img src="/icons/phone-call.png" width="20"/>
-                        <p style={{fontSize:"18px",color:"white",fontWeight:"500"}}>8630444460</p>
-                    </div>
+                <div id='header-call-div' style={{display:"flex",alignItems:"center",justifyContent:"center", padding:"10px",backgroundColor:"red",borderRadius:"12px",color:"white",fontWeight:"700",cursor:"pointer"}}>
+                    Contact Us
                 </div>
+
+             
 
                 <div id="header-menu-bar" onClick={()=>{
                     if(screen=='large'){

@@ -70,7 +70,11 @@
         justify-content: space-between;
     }
     
-    #link-div, #header-call-div{
+     #header-call-div{
+        display: none;
+     }
+
+    #link-div{
         display: none;
     }
 }
