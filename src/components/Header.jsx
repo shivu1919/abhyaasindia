@@ -6,7 +6,7 @@ function Header() {
 
 
     const[screen,setScreen] = useState('large')
-    const[menIcon, setMenuIcon] = useState('/icons/menu-bar.png')
+    const[menuIcon, setMenuIcon] = useState('/icons/menu-bar.png')
 
   return (
     <>
@@ -23,9 +23,15 @@ function Header() {
                     <Link id="header-links" to="/">Contact</Link>
                 </div>
 
-                <div style={{backgroundColor:"red",padding:"6px",borderRadius:"12px",cursor:"pointer"}} id="header-call-div">
-                    <div style={{display:"flex",alignItems:"center",columnGap:"5px"}}>
-                        <img src="/icons/phone-call.png" width="30"/>
+                <div style={{
+                    backgroundColor:"red",
+                    padding:"3px",
+                    borderRadius:"12px",
+                    cursor:"pointer"}} 
+                    id="header-call-div">
+
+                    <div style={{display:"flex",alignItems:"center",width:"140px",height:"40px",columnGap:"10px"}}>
+                        <img src="/icons/phone-call.png" width="20"/>
                         <p style={{fontSize:"18px",color:"white",fontWeight:"500"}}>8630444460</p>
                     </div>
                 </div>
@@ -41,7 +47,7 @@ function Header() {
                         setMenuIcon("/icons/menu-bar.png")
                     }
                 }}>
-                    <img src={menIcon} width="40"/>
+                    <img src={menuIcon} width="40"/>
                 </div>
             </div>
 
@@ -52,10 +58,7 @@ function Header() {
                         <Link id="header-links" to="/">Home</Link>
                         <Link id="header-links" to="/">Services</Link>
                         <Link id="header-links" to="/">About</Link>
-                        <Link id="header-links" to="/">Contact</Link>
-
-                   
-                    
+                        <Link id="header-links" to="/">Contact</Link>     
             </div>
         
     </>
